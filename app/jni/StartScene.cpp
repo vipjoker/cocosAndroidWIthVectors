@@ -28,6 +28,7 @@ bool StartScene::init() {
 
     auto sprite= Sprite::create("tiger.jpg");
     auto gr= creator::GraphicsNode::create();
+
     gr->beginPath();
     gr->moveTo(0,0);
     gr->lineTo(50,0);
